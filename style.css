@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.carousel-inner .item{
+    height: 100vh;
+}
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.carousel-caption{
+    padding-bottom: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .carousel-caption{
+        padding-bottom: 300px;
+    }
+}
